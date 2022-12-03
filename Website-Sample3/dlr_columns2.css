@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Review Assignment
+
+   Columns Style Sheet
+   Author: Tolulope Awoyomi
+   Date:  13th Octboer, 2022
+
+   Filename:         dlr_columns2.css
+
+*/
+
+
+
+/* Column Styles */
+@media only screen and (min-width:641px) {
+   p {
+      column-count:3;
+      -webkit-column-count:3;
+      -moz-column-count:3;
+      
+      column-gap:20px;
+      -webkit-column-gap:20px;
+      -moz-column-gap:20px;
+      
+      column-rule:1px solid black;
+      -webkit-column-rule:1px solid black;
+      -moz-column-rule: 1px solid black;
+   }
+
+}
+
